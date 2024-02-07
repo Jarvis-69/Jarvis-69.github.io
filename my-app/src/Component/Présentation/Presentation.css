@@ -1,0 +1,56 @@
+.Logo_Presentation {
+    width: 700px;
+    height: 700px;
+    /* background-color: black; */
+    align-items: center;
+}
+
+.presentation_div_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: linear-gradient(to bottom, #000000, #333333);
+}
+
+.presentation_txt {
+    color: white;
+}
+
+.presentation_h1 {
+    position: absolute;
+    top: 400px;
+    color: white;
+}
+
+.presentation_p {
+    position: absolute;
+    top: 500px;
+    color: white;
+    width: 500px;
+}
+
+.presentation_button {
+    position: absolute;
+    top: 600px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#presentation_button_2 {
+    left: 850px;
+}
