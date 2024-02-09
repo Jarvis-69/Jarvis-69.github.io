@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import Navbar from './Component/Navbar/Navbar';
 import Presentation from './Component/Présentation/Presentation';
+import Description  from './Component/Description/description';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     {/* <App /> */}
     <Navbar />
     <Presentation />
+    <Description />
   </React.StrictMode>
 );
 

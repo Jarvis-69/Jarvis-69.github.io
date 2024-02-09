@@ -4,8 +4,8 @@ import logo from '../Assests/logo.png';
 function Presentation () {
     return (
         <div className='presentation'>
-            <div className='presentation_div_logo'>
-                <img src={logo} className='Logo_Presentation' />
+            <div>
+                <img src={logo} alt="Logo" className='Logo_Presentation' />
             </div>
             <div className='presentation_txt'>
                 <h1 className='presentation_h1'>SALVADOR INOLA <br></br> Monitrice Indépendante</h1>
