@@ -1,0 +1,45 @@
+.footer_logo {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    /* margin-top: 20px; */
+}
+
+.facebook {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.instagram {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.social {
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+.ligne-centree {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ligne-centree hr {
+    width: 50%;
+    border: none;
+    border-top: 1px solid gray;
+}
+
+.footer_text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
