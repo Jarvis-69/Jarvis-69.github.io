@@ -1,15 +1,20 @@
+.navbar {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    height: 90px;
+    height: 100px;
+    align-items: center;
 }
 
 li {
-    margin: 30px;
+    text-align: center;
+    margin: 0 25px;
 }
 
 a {
@@ -18,26 +23,31 @@ a {
     font-size: 20px;
 }
 
-.navbar_logo {
+.navbar_logo,
+.navbar_facebook,
+.navbar_instagram {
     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar_logo {
     left: 0;
-    width: 70px;
-    height: 70px;
-    margin: 20px;
+    width: 90px;
+    height: 90px;
+    margin: 5px 0 0 30px;
 }
 
 .navbar_facebook {
-    position: absolute;
     right: 0;
     width: 30px;
     height: 30px;
-    margin: 30px;
+    margin: 0 50px;
 }
 
 .navbar_instagram {
-    position: absolute;
     right: 60px;
     width: 30px;
     height: 30px;
-    margin: 30px;
+    margin: 0 50px;
 }

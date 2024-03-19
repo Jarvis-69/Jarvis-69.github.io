@@ -1,5 +1,4 @@
 import './Presentation.css';
-import logo from '../Assests/logo.png';
 import horse from '../Assests/horse.png';
 
 function Presentation () {
