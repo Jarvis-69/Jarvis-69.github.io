@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 
 import Navbar from './Component/Navbar/Navbar';
 import Presentation from './Component/Présentation/Presentation';
 import Description  from './Component/Description/description';
 import Footer from './Component/Footer/footer';
+import ThirdMain from './Component/ThirdMain/ThirdMain';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
     <Navbar />
     <Presentation />
     <Description />
+    <ThirdMain />
     <Footer />
   </React.StrictMode>
 );

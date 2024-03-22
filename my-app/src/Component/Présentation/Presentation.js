@@ -17,10 +17,10 @@ function Presentation () {
                     </div>
                 </div>
             </div>
-            <div className='scroll'>
+            {/* <div className='scroll'>
                 <div className="mouse"></div>
                 <p className='scroll_p'>Scroll</p>
-            </div>
+            </div> */}
         </div>
     );
 }

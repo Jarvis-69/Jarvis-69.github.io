@@ -1,15 +1,18 @@
 import './description.css';
-import logo from '../Assests/logo.png';
+import description_img from '../Assests/description.jpg';
 
 function Description () {
     return (
         <div className='description'>
             <div className='description_txt'>
-                <h2>Titre</h2>
-                <p>Elit officia sunt qui anim. Magna commodo do adipisicing nulla irure sit quis. Non voluptate sit aliquip tempor ea quis consectetur ullamco elit officia do. Adipisicing ea do sunt sunt mollit. Nostrud elit occaecat ipsum dolor exercitation officia duis officia eu culpa veniam occaecat id officia. Consequat tempor id culpa et exercitation exercitation ea.</p>
+                <h3>Présentation</h3>
+                <h1>Une méthode d'enseignement unique pour vous</h1>
+                <p>Découvrez les avantages de choisir cette monitrice d'équitation indépendante. Avec une approche personnalisée et une passion pour les chevaux, vous atteindrez vos objectifs équestres rapidement et en toute confiance.</p>
+                <button className='btn'>Découvrir</button>
+                <button className='btn' id='presentation_button_2'>Contact</button>
             </div>
-            <div>
-                <img src={logo} alt="Logo" className='description_img'/>
+            <div className='description_div_img'>
+                <img src={description_img} alt="Logo" className='description_img'/>
             </div>
         </div>
     );

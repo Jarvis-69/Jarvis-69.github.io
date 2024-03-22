@@ -13,7 +13,7 @@ function Footer () {
                 <img src={facebook} alt="Logo" className='facebook' />
                 <img src={instagram} alt="Logo" className='instagram' />
             </div>
-            <div class="ligne-centree">
+            <div className="ligne-centree">
                 <hr></hr>
             </div>
             <div className='footer_text'>
