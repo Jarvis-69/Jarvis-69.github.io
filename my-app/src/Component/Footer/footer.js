@@ -1,5 +1,5 @@
 import './footer.css';
-import logo from '../Assests/logo.png';
+import logo_black from '../Assests/logo_black.png';
 import facebook from '../Assests/facebook.png';
 import instagram from '../Assests/instagram.png';
 
@@ -7,7 +7,7 @@ function Footer () {
     return (
         <div>
             <div>
-                <img src={logo} alt="Logo" className='footer_logo' />
+                <img src={logo_black} alt="Logo" className='footer_logo' />
             </div>
             <div className='social'>
                 <img src={facebook} alt="Logo" className='facebook' />

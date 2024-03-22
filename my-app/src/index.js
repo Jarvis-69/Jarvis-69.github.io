@@ -9,6 +9,7 @@ import Presentation from './Component/Présentation/Presentation';
 import Description  from './Component/Description/description';
 import Footer from './Component/Footer/footer';
 import ThirdMain from './Component/ThirdMain/ThirdMain';
+import Gird from './Component/Gird/Gird';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
     <Presentation />
     <Description />
     <ThirdMain />
+    <Gird />
     <Footer />
   </React.StrictMode>
 );
