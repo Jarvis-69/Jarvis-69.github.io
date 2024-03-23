@@ -33,10 +33,10 @@ a {
 }
 
 .navbar_logo {
-    left: 0;
-    width: 90px;
-    height: 90px;
-    margin: 5px 0 0 30px;
+    left: 30px;
+    width: 70px;
+    height: 70px;
+    /* margin: 10px 0 10px 30px; */
 }
 
 .navbar_facebook {

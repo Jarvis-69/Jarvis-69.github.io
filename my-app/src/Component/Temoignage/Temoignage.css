@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+.temoignage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.temoignage span {
+  margin-bottom: 20px;
+}
+
+.temoignage p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  /* margin-bottom: 20px; */
+}
+
+.temoignage_id {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.temoignage_id img {
+    width: 50px;
+    height: 50px;
+    /* margin-right: 20px; */
+    margin: 0 auto;
+}

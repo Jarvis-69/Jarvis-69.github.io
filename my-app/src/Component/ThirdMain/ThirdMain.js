@@ -1,4 +1,4 @@
-import './ThirdMain.css';
+import './ThirdMain.css'
 import description_img from '../Assests/description.jpg';
 
 function ThirdMain () {

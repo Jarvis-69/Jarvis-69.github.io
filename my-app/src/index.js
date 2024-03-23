@@ -3,13 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
+import background from './Component/Assests/background.jpg';
+
 
 import Navbar from './Component/Navbar/Navbar';
 import Presentation from './Component/Présentation/Presentation';
 import Description  from './Component/Description/description';
 import Footer from './Component/Footer/footer';
-import ThirdMain from './Component/ThirdMain/ThirdMain';
+// import ThirdMain from './Component/ThirdMain/ThirdMain';
 import Gird from './Component/Gird/Gird';
+import Temoignage from './Component/Temoignage/Temoignage';
+import Social from './Component/Social/Social';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,8 +22,10 @@ root.render(
     <Navbar />
     <Presentation />
     <Description />
-    <ThirdMain />
+    {/* <ThirdMain /> */}
     <Gird />
+    <Temoignage />
+    <Social />
     <Footer />
   </React.StrictMode>
 );
