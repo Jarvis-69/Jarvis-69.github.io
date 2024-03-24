@@ -5,7 +5,7 @@ import instagram from '../Assests/instagram.png';
 
 function Footer () {
     return (
-        <div>
+        <div className='footer'>
             <div>
                 <img src={logo_black} alt="Logo" className='footer_logo' />
             </div>

@@ -15,3 +15,7 @@ html {
   scroll-behavior: smooth;
   /* background-image: url('../Assets/background.jpg'); */
 }
+
+body {
+  margin: 0 auto;
+}

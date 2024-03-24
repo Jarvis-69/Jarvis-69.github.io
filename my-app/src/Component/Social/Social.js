@@ -12,7 +12,7 @@ function Social () {
                 <img src={instagram} alt="instagram" />
                 <p>Instagram</p>
             </div>
-            <div className='social_container'>
+            <div className='social_container' id='social_container_contact'>
                 <div className='social_grid'>
                     <div className='social_info'>
                         <label for="prenom">Prénom</label>
