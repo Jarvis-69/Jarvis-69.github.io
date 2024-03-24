@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  font-family: 'Lobster', cursive;
+  /* margin: 0; */
+  /* padding: 0; */
+  font-family: 'Lobster';
   max-width: 1440px;
-  margin: 0 auto;
-  /* scroll-behavior: smooth; */
+  box-sizing: border-box;
 }
 
 html {
-  /* background: linear-gradient(to bottom, #313131, #321313); */
   background-color: #feefd5;
+  margin: 0 auto;
+  padding: 0 10px;
+  scroll-behavior: smooth;
   /* background-image: url('../Assets/background.jpg'); */
 }

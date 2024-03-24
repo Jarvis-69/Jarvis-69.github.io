@@ -6,15 +6,19 @@ import logo_black from '../Assests/logo_black.png';
 function Navbar () {
     return (
         <div className='navbar'>
-            <ul>
+            <div>
                 <img src={logo_black} alt="Logo" className='navbar_logo' />
-                <li><a href="#home">A propos</a></li>
-                <li><a href="#Services">Services</a></li>
-                <li><a href="#Programmes">Programmes</a></li>
-                <li><a href="#about">Contacts</a></li>
+            </div>
+            <ul>
+                    <li><a href="#home">A propos</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Programmes">Programmes</a></li>
+                    <li><a href="#about">Contacts</a></li>
+            </ul>
+            <div className='navbar_social'>
                 <img src={facebook} alt="Facebook" className='navbar_facebook' />
                 <img src={instagram} alt="Instagram" className='navbar_instagram' />
-            </ul>
+            </div>
         </div>
     );
 }
