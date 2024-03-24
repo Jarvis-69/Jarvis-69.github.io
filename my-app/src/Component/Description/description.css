@@ -13,13 +13,13 @@
 
 .description_txt h3 {
     font-size: 30px;
-    margin-bottom: 10px;
+    margin: 0 0 10px 0;
     color: #d25212;
 }
 
 .description_txt h1 {
     font-size: 50px;
-    margin-bottom: 10px;
+    margin: 0 0 10px 0;
     color: #2f3546;
 }
 

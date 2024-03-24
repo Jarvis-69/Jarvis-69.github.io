@@ -15,16 +15,16 @@ function Social () {
             <div className='social_container' id='social_container_contact'>
                 <div className='social_grid'>
                     <div className='social_info'>
-                        <label for="prenom">Prénom</label>
+                        <label>Prénom</label>
                         <input type="text" placeholder="Ton prénom et/ou nom" />
                     </div>
                     <div className='social_info'>
-                        <label for="email">Email</label>
+                        <label>Email</label>
                         <input type="text" placeholder="exemple@gmail.com" />
                     </div>
                 </div>
                 <div className='social_info' id='social_message'>
-                    <label for="message">Message</label>
+                    <label>Message</label>
                     <input type="text" placeholder="Entre ton message" />
                 </div>
                 <button>Envoyer</button>
