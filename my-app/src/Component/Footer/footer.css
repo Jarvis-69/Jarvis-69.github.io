@@ -1,5 +1,5 @@
 .footer {
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .footer_logo {
@@ -41,11 +41,12 @@
 .ligne-centree hr {
     width: 85%;
     border: none;
-    border-top: 1px solid gray;
+    border-top: 1px solid #80584E;
 }
 
 .footer_text {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #f6efc3;
 }

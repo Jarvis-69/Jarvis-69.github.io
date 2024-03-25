@@ -1,13 +1,14 @@
 import './Navbar.css';
 import facebook from '../Assests/facebook.png';
 import instagram from '../Assests/instagram.png';
-import logo_black from '../Assests/logo_black.png';
+// import logo_black from '../Assests/logo_black.png';
+import logo from '../Assests/logo.png';
 
 function Navbar () {
     return (
         <div className='navbar'>
             <div>
-                <img src={logo_black} alt="Logo" className='navbar_logo' />
+                <img src={logo} alt="Logo" className='navbar_logo' />
             </div>
             <ul>
                     <li><a href="#home">A propos</a></li>

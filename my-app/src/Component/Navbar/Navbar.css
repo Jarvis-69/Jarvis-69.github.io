@@ -3,6 +3,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 25px 0 0 0;
+    background-color: #302322;
+
+    /* box-shadow: 0 2px rgba(0, 0, 0, 0.1); */
 }
 
 .navbar_logo {
@@ -14,13 +17,15 @@
 ul {
     list-style: none;
     display: flex;
-    gap: 50px;
+    gap: 60px;
     padding: 0;
+    margin-top: 0;
 }
 
 a {
     text-decoration: none;
-    color: #2f3546;
+    /* color: #2f3546; */
+    color: #cf8e7b;
     font-size: 20px;
 }
 

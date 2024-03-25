@@ -3,7 +3,9 @@
     grid-template-columns: repeat(2, 1fr);
     place-content: center;
     align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    /* margin-top: 40vh; */
+    margin-top: 200px;
 }
 
 .description_txt {
@@ -14,19 +16,19 @@
 .description_txt h3 {
     font-size: 30px;
     margin: 0 0 10px 0;
-    color: #d25212;
+    color: #f6efc3;
 }
 
 .description_txt h1 {
     font-size: 50px;
     margin: 0 0 10px 0;
-    color: #2f3546;
+    color: #cf8e7b;
 }
 
 .description_txt p {
     font-size: 20px;
     margin-top: 20px;
-    color: #d25212;
+    color: #80584E;
     margin-bottom: 20px;
 }
 

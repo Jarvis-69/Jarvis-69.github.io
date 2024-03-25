@@ -1,11 +1,10 @@
 import './Presentation.css';
-import horse from '../Assests/horse.png';
+import horse from '../Assests/horse.svg';
 
 function Presentation () {
     return (
         <div className='presentation'>
             <div className='presentation_grid'>
-                <img src={horse} alt="Logo" className='Logo_Presentation' />
                 <div className='presentation_txt'>
                     <div>
                         <h1 className='presentation_h1'>Salvador Inola</h1>
@@ -16,11 +15,10 @@ function Presentation () {
                         <button className='btn' id='presentation_button_2'>Contact</button>
                     </div>
                 </div>
+                <div className='presentattion_img'>
+                    <img src={horse} alt="Logo" className='Logo_Presentation' />
+                </div>
             </div>
-            {/* <div className='scroll'>
-                <div className="mouse"></div>
-                <p className='scroll_p'>Scroll</p>
-            </div> */}
         </div>
     );
 }

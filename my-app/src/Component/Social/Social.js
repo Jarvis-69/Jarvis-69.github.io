@@ -25,7 +25,7 @@ function Social () {
                 </div>
                 <div className='social_info' id='social_message'>
                     <label>Message</label>
-                    <input type="text" placeholder="Entre ton message" />
+                    <input type="text" placeholder="Entre ton message" id='social_info_message'/>
                 </div>
                 <button>Envoyer</button>
             </div>

@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import background from './Component/Assests/background.jpg';
-
-
 import Navbar from './Component/Navbar/Navbar';
 import Presentation from './Component/Présentation/Presentation';
 import Description  from './Component/Description/description';

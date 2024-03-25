@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 200px;
     height: 50vh;
 }
 
@@ -14,26 +14,40 @@
     width: 50%;
 }
 
+.social_container img {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
 #social_container_contact {
-    padding: 0 150px 0 0;
+    padding: 30px 150px 0 0;
+    height: 100%;
 }
 
 .social h1 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #2f3546;
+    color: #f6efc3;
 }
 
 .social label {
-    color: #2f3546;
+    color: #cf8e7b;
     font-size: 1.2rem;
+}
+
+.social p {
+    color: #cf8e7b;
+    font-size: 1rem;
+    padding-bottom: 20px;
 }
 
 .social input {
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #2f3546;
+    border: 1px solid #80584E;
     border-radius: 5px;
+    background-color: #f6efc3;
 }
 
 .social_grid {
@@ -50,4 +64,18 @@
 
 #social_message {
     width: 100%;
+}
+
+#social_info_message  {
+    padding-bottom: 100px;
+}
+
+.social button {
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #80584E;
+    border-radius: 5px;
+    background-color: #f6efc3;
+    color: #cf8e7b;
+    font-size: 1rem;
 }

@@ -1,12 +1,12 @@
 .grid {
     height: 50vh;
     place-content: center;
-    margin-top: 150px;
+    margin-top: 200px;
     padding: 0 50px 0 50px;
 }
 
 .grid_h1 {
-    color: #2f3546;
+    color: #f6efc3;
     text-align: center;
 }
 
@@ -19,24 +19,24 @@
     border-radius: 10px;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
-    background-color: #ffeccc;
+    background-color: #80584E;
 }
 
 .Gird_txt {
-    padding: 0 30px;
+    padding: 0 40px;
     text-align: center;
 }
 
 .Gird_txt h1 {
     font-size: 22px;
     margin-bottom: 10px;
-    color: #d25212;
+    color: #f6efc3;
 }
 
 .Gird_txt p {
     font-size: 18px;
     margin-top: 20px;
-    color: #2f3546;
+    color: #cf8e7b;
 }
 
 /* .Grid_p {
