@@ -16,7 +16,7 @@
 
 .Logo_Presentation {
     /* width: 100%; */
-    max-width: 200%;
+    width: 100vh;
     position: absolute;
     top: -500px;
     left: -100px;
@@ -67,4 +67,10 @@
     font-size: 1.25rem;
     line-height:  1.5;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .Logo_Presentation {
+        display: none;
+    }
 }

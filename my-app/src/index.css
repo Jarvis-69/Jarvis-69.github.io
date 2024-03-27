@@ -21,3 +21,12 @@ html {
 body {
   margin: 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+  html {
+    padding: 0;
+    margin: 0;
+    max-width: 100vw;
+  }
+  
+}

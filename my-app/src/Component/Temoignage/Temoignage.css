@@ -5,9 +5,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 150px 0 150px;
+  padding: 50px 100px 50px 100px;
+  margin: 0 50px 0 50px;
   text-align: center;
   margin-top: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #80584E;
+  border-radius: 10px;
+  /* background-color: #f6efc3; */
 }
 
 .temoignage span {

@@ -1,9 +1,12 @@
 import './description.css';
-import description_img from '../Assests/description.jpg';
+import description_img from '../Assests/description.svg';
 
 function Description () {
     return (
             <div className='description_grid'>
+                <div className='description_img_div'>
+                    <img src={description_img} alt="poney" className='description_img'/>
+                </div>
                 <div className='description_txt'>
                     <h3>Présentation</h3>
                     <h1>Une méthode d'enseignement unique pour vous</h1>
@@ -11,7 +14,6 @@ function Description () {
                     {/* <button className='btn'>Découvrir</button>
                     <button className='btn' id='presentation_button_2'>Contact</button> */}
                 </div>
-                    <img src={description_img} alt="poney" className='description_img'/>
             </div>
     );
 }

@@ -1,7 +1,7 @@
 .grid {
     height: 50vh;
     place-content: center;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     padding: 0 50px 0 50px;
 }
 

@@ -1,16 +1,22 @@
 import './Social.css'
-import facebook from '../Assests/facebook.png'
-import instagram from '../Assests/instagram.png'
+import facebook from '../Assests/facebook_social.png'
+import instagram from '../Assests/instagram_social.png'
 
 function Social () {
     return (
         <div className='social'>
             <div className='social_container'>
                 <h1>Restons en contact</h1>
-                <img src={facebook} alt="facebook" />
-                <p>Facebook</p>
-                <img src={instagram} alt="instagram" />
-                <p>Instagram</p>
+                <div className='social_container_grid'>
+                    <img src={facebook} alt="facebook" />
+                    <p>inola monitrice independante</p>
+                </div>
+                {/* <p>Facebook</p> */}
+                <div className='social_container_grid'>
+                    <img src={instagram} alt="instagram" />
+                    <p>inola.monitrice.independante</p>
+                </div>
+                {/* <p>Instagram</p> */}
             </div>
             <div className='social_container' id='social_container_contact'>
                 <div className='social_grid'>
