@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 
-.presentattion_img {
+.presentation_img {
   max-height: calc(100vh - 133px);
   position: relative;
 }
@@ -72,5 +72,23 @@
 @media screen and (max-width: 768px) {
     .Logo_Presentation {
         display: none;
+    }
+
+    .presentation_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .presentation_txt {
+        margin-left: 0;
+        padding: 0 20px 0 20px;
+        margin-bottom: 0;
+    }
+
+    .presentation_img {
+        display: none;  
+    }
+
+    #presentation_button_2 {
+        margin-left: 20px;
     }
 }

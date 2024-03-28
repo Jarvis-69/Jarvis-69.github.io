@@ -44,3 +44,27 @@
     margin-top: 40px;
     color: #d25212;
 } */
+
+@media screen and (max-width: 768px) {
+    .grid {
+        height: auto;
+    }
+
+    .grid_grid {
+        grid-template-columns: 1fr;
+        margin-top: 0;
+        height: auto;
+    }
+
+    .Gird_txt {
+        padding: 0 20px;
+    }
+
+    .Gird_txt h1 {
+        font-size: 20px;
+    }
+
+    .Gird_txt p {
+        font-size: 16px;
+    }
+}

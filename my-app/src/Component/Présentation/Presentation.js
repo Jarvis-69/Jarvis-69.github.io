@@ -15,7 +15,7 @@ function Presentation () {
                         <button className='btn' id='presentation_button_2'>Contact</button>
                     </div>
                 </div>
-                <div className='presentattion_img'>
+                <div className='presentation_img'>
                     <img src={horse} alt="Logo" className='Logo_Presentation' />
                 </div>
             </div>

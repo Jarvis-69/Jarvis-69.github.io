@@ -99,12 +99,14 @@ a {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
         background-color: rgba(48, 35, 34, 0.8);
+        /* overflow: hidden; */
     }
 
-    ul.active + .menu-toggle {
+    .menu-toggle.active{
         position: fixed;
+
     }
 
     a {

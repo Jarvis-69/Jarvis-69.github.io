@@ -28,7 +28,6 @@
     width: 40px;
     height: 40px;
     object-fit: contain;
-    /* margin-top: 50px; */
     justify-self: end;
     margin-right: 20px;
 }
@@ -36,11 +35,10 @@
 .social_container_grid p {
     color: #cf8e7b;
     font-size: 1.1rem;
-    /* align-items: center; */
 }
 
 #social_container_contact {
-    padding: 30px 150px 0 0;
+    padding: 30px 50px 0 0;
     height: 100%;
 }
 
@@ -57,8 +55,6 @@
 
 .social p {
     color: #cf8e7b;
-    /* font-size: 1rem; */
-    /* padding-bottom: 20px; */
 }
 
 .social input {
@@ -97,4 +93,50 @@
     background-color: #f6efc3;
     color: #cf8e7b;
     font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .social {
+        margin-top: 100px;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .social_container {
+        width: 80%;
+    }
+
+    .social_container_grid {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .social_grid {
+        gap: 0;
+    }
+
+    .social h1 {
+        font-size: 1.5rem;
+    }
+
+    .social label {
+        font-size: 1rem;
+    }
+
+    .social p {
+        font-size: 1rem;
+    }
+
+    .social input {
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+
+    .social button {
+        font-size: 0.8rem;
+    }
+
+    #social_container_contact {
+        padding: 0;
+        margin-top: 20px;
+    }
 }

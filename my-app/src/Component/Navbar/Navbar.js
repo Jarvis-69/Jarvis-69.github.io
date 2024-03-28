@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import facebook from '../Assests/facebook.png';
 import instagram from '../Assests/instagram.png';
@@ -9,6 +9,19 @@ import logo from '../Assests/logo.png';
 
 function Navbar () {
     const [menuOpen, setMenuOpen] = useState(false);
+
+    useEffect(() => {
+        const html = document.querySelector('body');
+        if (menuOpen) {
+            html.style.overflow = 'hidden';
+        } else {
+            html.style.overflow = 'auto';
+        }
+
+        return () => {
+            html.style.overflow = 'auto';
+        };
+    }, [menuOpen]);
 
     const toggleMenu = () => {
         setMenuOpen(prevMenuOpen => !prevMenuOpen);
@@ -29,7 +42,7 @@ function Navbar () {
                 <img src={facebook} alt="Facebook" className='navbar_facebook' />
                 <img src={instagram} alt="Instagram" className='navbar_instagram' />
             </div>
-            <button className="menu-toggle" onClick={toggleMenu}>&#9776;</button>
+            <button className={`menu-toggle ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>&#9776;</button>
         </div>
     );
 }
