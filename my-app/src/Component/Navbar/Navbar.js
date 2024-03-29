@@ -42,7 +42,9 @@ function Navbar () {
                 <img src={facebook} alt="Facebook" className='navbar_facebook' />
                 <img src={instagram} alt="Instagram" className='navbar_instagram' />
             </div>
-            <button className={`menu-toggle ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>&#9776;</button>
+            <div className='navbar_menu_burger'>
+                <button className={`menu-toggle ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>&#9776;</button>
+            </div>
         </div>
     );
 }

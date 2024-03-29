@@ -1,5 +1,5 @@
 import './Presentation.css';
-import horse from '../Assests/horse.svg';
+import horse from '../Assests/horse.png';
 
 function Presentation () {
     return (

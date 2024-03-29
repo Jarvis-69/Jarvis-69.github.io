@@ -18,7 +18,7 @@
     /* width: 100%; */
     width: 100vh;
     position: absolute;
-    top: -500px;
+    /* top: -475px; */
     left: -100px;
       
     /* max-height: calc(100vh - 133px); */
@@ -55,9 +55,9 @@
     margin-bottom: 30px;
 }
 
-#presentation_button_2 {
+/* #presentation_button_2 {
     margin-left: 50px;
-}
+} */
 
 .btn {
     display:  inline-block;
@@ -67,9 +67,14 @@
     font-size: 1.25rem;
     line-height:  1.5;
     cursor: pointer;
+    margin-right: 50px;
 }
 
 @media screen and (max-width: 768px) {
+    .presentation {
+        height: calc(100vh - 109px);
+    }
+
     .Logo_Presentation {
         display: none;
     }
@@ -80,8 +85,9 @@
 
     .presentation_txt {
         margin-left: 0;
-        padding: 0 20px 0 20px;
+        padding: 0 5vw 0 5vw;
         margin-bottom: 0;
+        justify-content: start;
     }
 
     .presentation_img {
@@ -89,6 +95,6 @@
     }
 
     #presentation_button_2 {
-        margin-left: 20px;
+        margin-top: 20px;
     }
 }

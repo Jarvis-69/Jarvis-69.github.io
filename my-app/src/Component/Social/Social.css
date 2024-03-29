@@ -16,12 +16,12 @@
 
 .social_container_grid {
     display: flex;
-    padding: 10px 30px 10px 30px;
+    padding: 5px 35px 5px 35px;
     align-items: center;
     border: 1px solid #80584E;
-    border-radius: 30px;
+    border-radius: 50px;
     background-color: #f6efc3;
-    margin: 10px 0;
+    margin-top: 50px;
 }
 
 .social_container_grid img {
@@ -38,7 +38,8 @@
 }
 
 #social_container_contact {
-    padding: 30px 50px 0 0;
+    padding-right: 50px;
+    margin-top: 150px;
     height: 100%;
 }
 
@@ -97,7 +98,7 @@
 
 @media screen and (max-width: 768px) {
     .social {
-        margin-top: 100px;
+        margin-top: 200px;
         flex-wrap: wrap;
         height: auto;
     }
@@ -106,37 +107,35 @@
         width: 80%;
     }
 
-    .social_container_grid {
-        padding: 10px 20px 10px 20px;
-    }
-
     .social_grid {
+        grid-template-columns: repeat(1, 1fr);
         gap: 0;
     }
 
-    .social h1 {
+    .social_container_grid p {
+        font-size: 1rem;
+    }
+
+    /* .social h1 {
         font-size: 1.5rem;
-    }
-
-    .social label {
-        font-size: 1rem;
-    }
-
-    .social p {
-        font-size: 1rem;
-    }
-
-    .social input {
-        padding: 5px;
-        font-size: 0.8rem;
-    }
-
-    .social button {
-        font-size: 0.8rem;
-    }
+    } */
 
     #social_container_contact {
-        padding: 0;
-        margin-top: 20px;
+        /* padding: 0 5vw 0 5vw; */
+        justify-content: center;
+        margin-top: 50px;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .social_container_grid p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .social_container_grid p {
+        font-size: 0.6rem;
     }
 }

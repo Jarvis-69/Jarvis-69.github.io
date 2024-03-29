@@ -50,3 +50,28 @@
     margin-bottom: 20px;
     color: #f6efc3;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin-top: 100px;
+    }
+
+    .footer_logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .facebook {
+        width: 30px;
+        height: 30px;
+    }
+
+    .instagram {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer_text {
+        font-size: 15px;
+    }
+}

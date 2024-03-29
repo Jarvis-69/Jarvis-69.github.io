@@ -48,6 +48,7 @@
 @media screen and (max-width: 768px) {
     .grid {
         height: auto;
+        margin-top: 200px;
     }
 
     .grid_grid {

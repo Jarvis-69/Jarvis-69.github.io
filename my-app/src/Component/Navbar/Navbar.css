@@ -45,13 +45,16 @@ a {
     width: 31px;
 }
 
-.menu-toggle {
+.navbar_menu_burger {
     display: none;
 }
 
 @media screen and (max-width: 768px) {
+    .navbar_menu_burger {
+        display: flex;
+    }
+    
     .menu-toggle {
-        display: block;
         cursor: pointer;
         padding: 10px;
         background-color: #302322;
@@ -61,15 +64,20 @@ a {
         z-index: 1000;
         border: 1px solid #cf8e7b;
         border-radius: 5px;
+        margin: 0 5vw 0 0;
         /* margin: 0 20px 0 0; */
+        /* position: absolute;
+        top: 0;
+        left: 0; */
     }
 
     .navbar {
-        justify-content: space-around;
+        /* display: grid; */
+        justify-content: space-between;
     }
 
     .navbar_logo {
-        margin: 0;
+        margin: 0 0 0 5vw;
         height: 80px;
         width: 80px;
     }
@@ -106,7 +114,10 @@ a {
 
     .menu-toggle.active{
         position: fixed;
-
+        top: 44px;
+        right: 0;
+        transform: translate(0, 0);
+        margin: 0 5vw 0 0;
     }
 
     a {
