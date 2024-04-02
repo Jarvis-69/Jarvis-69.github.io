@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "gsap": "^3.12.5",
-    "nth-check": ">=2.0.1"
+    "gsap": "^3.12.5"
   }
 }
