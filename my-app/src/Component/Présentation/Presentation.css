@@ -9,21 +9,16 @@
   margin: 0 auto;
 }
 
-.presentation_img {
+/* .presentation_img {
   max-height: calc(100vh - 133px);
   position: relative;
-}
+  object-fit: cover;
+} */
 
 .Logo_Presentation {
-    /* width: 100%; */
-    width: 100vh;
     position: absolute;
-    /* top: -475px; */
-    left: -100px;
-      
-    /* max-height: calc(100vh - 133px); */
-    /* max-width: calc(50vw - 66.5px); */
-    /* position: relative; */
+    left: 40vw;
+    max-height: calc(100vh - 133px);
 }
 
 .presentation_txt {

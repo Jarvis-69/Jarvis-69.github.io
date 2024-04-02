@@ -14,7 +14,7 @@ import Social from './Component/Social/Social';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+    <React.StrictMode>
     {/* <App /> */}
     <Navbar />
     <Presentation />

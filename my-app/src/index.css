@@ -9,6 +9,8 @@
 html {
   background-color: #302322;
   margin: 0 auto;
+  /* padding-right: 10%;
+  padding-left: 10%; */
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
