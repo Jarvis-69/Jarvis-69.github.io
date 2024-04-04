@@ -1,34 +1,23 @@
-.presentation {
+.presentation_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* margin: 0 auto; */
   height: calc(100vh - 133px);
 }
 
-.presentation_grid {
-  height: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin: 0 auto;
-}
-
-/* .presentation_img {
-  max-height: calc(100vh - 133px);
-  position: relative;
-  object-fit: cover;
-} */
-
-.Logo_Presentation {
+.presentation_img {
     position: absolute;
-    left: 40vw;
+    left: 45vw;
     max-height: calc(100vh - 133px);
 }
 
 .presentation_txt {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
-    color: white;
-    /* margin-top: 150px; */
-    margin-bottom: -10vh;
-    margin-left: 50px;
+    /* margin-bottom: -10vh; */
+    margin-left: 5vw;
+    height: 100%;
 }
 
 .presentation_h1 {
@@ -55,7 +44,7 @@
 } */
 
 .btn {
-    display:  inline-block;
+    display: inline-block;
     color:  #cf8e7b;
     background-color:  #f6efc3;
     padding:  .5rem 2rem;

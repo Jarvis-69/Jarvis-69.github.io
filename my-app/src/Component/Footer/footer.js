@@ -6,12 +6,14 @@ import instagram from '../Assests/instagram.png';
 function Footer () {
     return (
         <div className='footer'>
-            <div>
-                <img src={logo} alt="Logo" className='footer_logo' />
-            </div>
-            <div className='footer_social'>
-                <img src={facebook} alt="Logo" className='facebook' />
-                <img src={instagram} alt="Logo" className='instagram' />
+            <div className='footer_grid'>
+                <div>
+                    <img src={logo} alt="Logo" className='footer_logo' />
+                </div>
+                <div className='footer_social'>
+                    <img src={facebook} alt="Logo" className='facebook' />
+                    <img src={instagram} alt="Logo" className='instagram' />
+                </div>
             </div>
             <div className="ligne-centree">
                 <hr></hr>

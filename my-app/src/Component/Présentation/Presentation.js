@@ -62,9 +62,8 @@ function Presentation () {
         }, [])
     
     return (
-        <div className='presentation'>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
             <div className='presentation_grid'>
+            {/* <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> */}
                 <div className='presentation_txt'>
                     <div>
                         <h1 className='presentation_h1' ref={presentation_h1}>Salvador Inola</h1>
@@ -75,11 +74,8 @@ function Presentation () {
                         <button className='btn' id='presentation_button_2' ref={btn2}>Contact</button>
                     </div>
                 </div>
-                {/* <div className='presentation_img'> */}
-                    <img src={horse} alt="Logo" className='Logo_Presentation' ref={presentation_logo}/>
-                {/* </div> */}
+                    <img src={horse} alt="img" className='presentation_img' ref={presentation_logo}/>
             </div>
-        </div>
     );
 }
 
