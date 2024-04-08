@@ -40,11 +40,13 @@ a {
 .navbar_facebook {
     height: 30px;
     width: 30px;
+    cursor: pointer;
 }
 
 .navbar_instagram {
-    height: 31px;
-    width: 31px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
 }
 
 .navbar_menu_burger {

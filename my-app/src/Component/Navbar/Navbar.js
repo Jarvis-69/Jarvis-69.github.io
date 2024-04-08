@@ -39,8 +39,8 @@ function Navbar () {
                     <li><a href="#about">Contacts</a></li>
             </ul>
             <div className='navbar_social'>
-                <img src={facebook} alt="Facebook" className='navbar_facebook' />
-                <img src={instagram} alt="Instagram" className='navbar_instagram' />
+                <a href="https://www.facebook.com/profile.php?id=100087199472382" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="Facebook" className='navbar_facebook' /></a>
+                <a href="https://www.instagram.com/inola.monitrice.independante/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="Instagram" className='navbar_instagram' /></a>
             </div>
             <div className='navbar_menu_burger'>
                 <button className={`menu-toggle ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>&#9776;</button>

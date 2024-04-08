@@ -5,7 +5,7 @@ import instagram from '../Assests/instagram_social.png'
 function Social () {
     return (
         <div className='social'>
-            <div className='social_container'>
+            <div className='social_container' id='social_container_link'>
                 <h1>Restons en contact</h1>
                 <div className='social_container_grid'>
                     <img src={facebook} alt="facebook" />
