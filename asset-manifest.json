@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.b7418ced.css",
+    "main.js": "/my-app/static/js/main.5b3d1838.js",
+    "static/js/453.ed3810f9.chunk.js": "/my-app/static/js/453.ed3810f9.chunk.js",
+    "static/media/description.svg": "/my-app/static/media/description.818095612e12efc487f430da3fb19cee.svg",
+    "static/media/horse.png": "/my-app/static/media/horse.27f1bf0cd791a122d48a.png",
+    "static/media/instagram_social.png": "/my-app/static/media/instagram_social.53f9c609accc47c2d52e.png",
+    "static/media/instagram.png": "/my-app/static/media/instagram.cbf59eeda52a72292f49.png",
+    "static/media/logo.png": "/my-app/static/media/logo.7bba193dd063808904de.png",
+    "static/media/facebook_social.png": "/my-app/static/media/facebook_social.4f41b6d7855fa97f01b7.png",
+    "static/media/facebook.png": "/my-app/static/media/facebook.60b205ba88e77eefd98c.png",
+    "index.html": "/my-app/index.html",
+    "main.b7418ced.css.map": "/my-app/static/css/main.b7418ced.css.map",
+    "main.5b3d1838.js.map": "/my-app/static/js/main.5b3d1838.js.map",
+    "453.ed3810f9.chunk.js.map": "/my-app/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7418ced.css",
+    "static/js/main.5b3d1838.js"
+  ]
+}
