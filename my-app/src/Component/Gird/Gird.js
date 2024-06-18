@@ -2,7 +2,7 @@ import './Grid.css';
 
 function Gird () {
     return (
-        <div className='grid'>
+        <div className='grid' id='programmes'>
             <h1 className='grid_h1'>Des activités équestres pour tous les goûts</h1>
             <div className='grid_grid'>
                 <div className='Gird_txt'>

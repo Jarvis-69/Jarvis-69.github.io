@@ -62,7 +62,7 @@ function Presentation () {
         }, [])
     
     return (
-            <div className='presentation_grid'>
+            <div className='presentation_grid' id='presentation'>
             {/* <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> */}
                 <div className='presentation_txt'>
                     <div>
@@ -70,8 +70,12 @@ function Presentation () {
                         <h2 className='presentation_h2' ref={presentation_h2}>Monitrice indépendante</h2>
                         <p className='presentation_p' ref={presentation_p}>Je suis monitrice indépendante, je vous propose des cours de dressage, de saut d'obstacle et de cross. Je vous propose également des stages de perfectionnement. Je me déplace dans les écuries de votre choix.
                         </p>
-                        <button className='btn' ref={btn}>Découvrir</button>
-                        <button className='btn' id='presentation_button_2' ref={btn2}>Contact</button>
+                        <a href="#programmes" className='btn' ref={btn} id='presentation_button_1'>
+                            Découvrir
+                        </a>
+                        <a href="#social" className='btn' ref={btn2} id='presentation_button_2'>   
+                            Contact
+                        </a>
                     </div>
                 </div>
                     <img src={horse} alt="img" className='presentation_img' ref={presentation_logo}/>

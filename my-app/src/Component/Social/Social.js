@@ -4,18 +4,22 @@ import instagram from '../Assests/instagram_social.png'
 
 function Social () {
     return (
-        <div className='social'>
+        <div className='social' id='social'>
             <div className='social_container' id='social_container_link'>
                 <h1>Restons en contact</h1>
-                <div className='social_container_grid'>
-                    <img src={facebook} alt="facebook" />
-                    <p>inola monitrice independante</p>
-                </div>
+                    <a href='https://www.facebook.com/profile.php?id=100087199472382'>
+                    <div className='social_container_grid'>
+                        <img src={facebook} alt="facebook" />
+                        <p>inola monitrice independante</p>
+                    </div>
+                </a>
                 {/* <p>Facebook</p> */}
-                <div className='social_container_grid'>
-                    <img src={instagram} alt="instagram" />
-                    <p>inola.monitrice.independante</p>
-                </div>
+                <a href='https://www.instagram.com/inola.monitrice.independante/'>
+                    <div className='social_container_grid' >
+                        <img src={instagram} alt="instagram" />
+                        <p>inola.monitrice.independante</p>
+                    </div>
+                </a>
                 {/* <p>Instagram</p> */}
             </div>
             <div className='social_container' id='social_container_contact'>

@@ -56,7 +56,7 @@ function Description () {
     }, [])
 
     return (
-            <div className='description_grid'>
+            <div className='description_grid' id='description'>
                 <div className='description_img_div'>
                     <img src={description_img} alt="poney" className='description_img' ref={descriptionImg}/>
                 </div>

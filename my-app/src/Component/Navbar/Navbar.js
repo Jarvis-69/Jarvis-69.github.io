@@ -33,10 +33,10 @@ function Navbar () {
                 <img src={logo} alt="Logo" className='navbar_logo' />
             </div>
             <ul className={menuOpen ? "active" : ""}>
-                    <li><a href="#home">A propos</a></li>
-                    <li><a href="#Services">Services</a></li>
-                    <li><a href="#Programmes">Programmes</a></li>
-                    <li><a href="#about">Contacts</a></li>
+                    <li><a href="#description">Presentation</a></li>
+                    <li><a href="#programmes">Programmes</a></li>
+                    <li><a href="#temoignage">Temoignages</a></li>
+                    <li><a href="#social">Contacts</a></li>
             </ul>
             <div className='navbar_social'>
                 <a href="https://www.facebook.com/profile.php?id=100087199472382" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="Facebook" className='navbar_facebook' /></a>
