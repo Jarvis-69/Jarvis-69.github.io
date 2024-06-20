@@ -59,9 +59,9 @@
 }
 
 @media screen and (max-width: 768px) {
-    .presentation {
-        height: calc(100vh - 109px);
-    }
+    /* .presentation {
+        height: calc(100vh);
+    } */
 
     .Logo_Presentation {
         display: none;
@@ -69,6 +69,7 @@
 
     .presentation_grid {
         grid-template-columns: 1fr;
+        height: calc(100vh - 99px);
     }
 
     .presentation_txt {
