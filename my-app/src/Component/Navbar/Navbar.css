@@ -121,20 +121,13 @@ a {
         flex-direction: column;
         justify-content: center;
         /* align-items: center; */
-        background-color: rgba(48, 35, 34, 0.8);
+        background-color: rgba(48, 35, 34, 0.95);
         /* overflow: hidden; */
-    }
-
-    .menu-toggle.active{
-        position: fixed;
-        top: 44px;
-        right: 0;
-        transform: translate(0, 0);
-        margin: 0 5vw 0 0;
+        z-index: 1000;
     }
 
     a {
-        color: #fff;
+        color: #f6efc3;
         font-size: 20px;
     }
 }
