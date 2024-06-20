@@ -127,13 +127,18 @@
         height: auto;
     }
 
-    .social_container {
-        width: 80%;
+    .social form {
+        width: 100%;
+        padding: 0 5vw 0 5vw;
     }
 
     .social_grid {
         grid-template-columns: repeat(1, 1fr);
         gap: 0;
+    }
+
+    .social_container_grid {
+        width: 100%;    
     }
 
     .social_container_grid p {
