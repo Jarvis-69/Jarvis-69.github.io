@@ -8,6 +8,26 @@ import logo from '../Assests/logo.png';
 
 
 function Navbar () {
+    const [showNavbar, setShowNavbar] = useState(true);
+
+    const handleScroll = () => {
+        // Comparez la position actuelle du défilement avec la position précédente
+        if (window.scrollY > 100) {
+            setShowNavbar(false); // Masquez la navbar si l'utilisateur fait défiler vers le bas
+        } else {
+            setShowNavbar(true); // Affichez la navbar si l'utilisateur fait défiler vers le haut
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+
     const [menuOpen, setMenuOpen] = useState(false);
 
     useEffect(() => {
@@ -28,7 +48,7 @@ function Navbar () {
     };
 
     return (
-        <div className='navbar'>
+        <div className={`navbar ${showNavbar ? 'active' : ''}`}>
             <div>
                 <img src={logo} alt="Logo" className='navbar_logo' />
             </div>
