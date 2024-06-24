@@ -1,14 +1,14 @@
 .presentation_grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 150px;
-  height: calc(100vh - 133px);
+  margin-top: 140px;
+  height: calc(100vh - 139px);
 }
 
 .presentation_img {
     position: absolute;
     left: 45vw;
-    max-height: calc(100vh - 133px);
+    max-height: calc(100vh - 139px);
 }
 
 .presentation_txt {
